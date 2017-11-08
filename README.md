@@ -12,7 +12,7 @@ Este repositorio es para el desarrollo del proyecto final de la materia de compi
 
 - Sánchez Hernández Max Armando<br/>
 - Paez Lampon Bidkar<br/>
-- EL MOMO <br/>
+- Guillermo López Guzmán <br/>
 
 ### Lenguajes 
 -Yacc <br/>
