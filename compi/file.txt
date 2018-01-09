@@ -1,0 +1,79 @@
+/*int a,b,c[6][4][2],d*/
+struct{
+int a,b,c[6][4][2],d
+}a,d,g,e[2][3],f[2]
+func int mi_funcion(int z, float x, char m[])
+{
+    int a,b,c[6][4][2],d[2]
+    print 1000000;
+    print "Soy una cadena";
+    print 'c';
+    /*print 10.1+13.4;
+    print 10.1-13.4;
+    print 10.1*13.4;
+    print 135.34/13.4;
+    print 10%3;
+    print 10.0%3.0;
+    print "cadena1"+"cadena2";*/
+    print a;
+    print f[0];
+    print d[0];
+    print c[5][3][1];
+    print e[1][2];
+    print g.d;
+    return 0;
+}
+
+func void otra_funcion(int m)
+{
+    struct{
+        int a
+    }g
+    
+    g.a=1;          /*Probamos estructura local*/
+    a.d=2;          /*Probamos estructura no local, universal*/
+    print 5%2;      /*Probamos que maneje bien los residuos*/
+    return;         /*No retornamos valor, se puede omitir esto si es tipo void*/
+}
+
+func void pues_otra(int n)
+{
+    char car[4][5]
+    car[0][0]=car[1-1][2-1];            /* Probamos cuadruplas en indices derechos */
+    car[5-5][3-2]=car[0][0];            /* Probamos cuadruplas en indices izquierdos*/
+    car[5-5][3-2]=car[1-1][2-1];        /* Probamos cuadruplas en ambos indices */
+    print car[5-5][3-2];                /* Probamos imprimir uno */
+    
+    return;
+}
+
+func void prueba_bool(int o)
+{
+    int d
+    if(1<5)
+        d=10;
+    if(true && (true || false))
+        print o;
+    return;
+}
+
+func int main(int a, float b, double c)
+{
+    char j[6][2]
+    a=1;
+    b=2.0f;
+    c=2.0f+2.0;
+    j[0][1]='a';
+    print b;
+    print 1.0f+1.0;
+    print "Estoy en un main";
+    switch(a){
+        case: 1
+            print "hola";
+        case: 2
+            print "adios";
+        default:
+            print "default";
+    }
+    return 0;
+}
